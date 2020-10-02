@@ -60,7 +60,7 @@ body {
 
 .slider[type="range"] {
     -webkit-appearance: none;
-    width: 380px;
+    width: 50%;
     height: 30px;
     border-radius: 10px;
     background-color: #aaa;
@@ -75,14 +75,6 @@ body {
     border-radius: 10px;
     box-shadow: -350px 0px 0px 340px #f5f5f5;
     cursor: pointer;
-}
-
-#file {
-    background-image: linear-gradient(to right, #f00, #ff0, #0f0, #00f);
-    animation: animate 20s linear infinite;
-    background-size: 1000%;
-    border-radius: 7px;
-    color: crimson;
 }
 
 label {
