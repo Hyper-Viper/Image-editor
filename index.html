@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="Eng">
+
+<head>
+    <title>Image editor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="sec">
+        <div>
+            <input type="text" id="url" placeholder="Type image url here">
+        </div>
+        <button class="ur" onclick="selectImage()">Upload</button>
+    </section>
+    <img id="image" src="bestimg%201.png">
+    <section id="SEC">
+        <section id="sliders">
+            <p>
+                <label for="gs">Grayscale</label>
+                <input type="range" id="gs" class="slider" min="0" max="" value="0" oninput="editImage()">
+            </p>
+            <p>
+                <label for="br">Blur</label>
+                <input type="range" id="br" class="slider" min="0" max="" value="0" oninput="editImage()">
+            </p>
+            <p>
+                <label for="hr">Hue-Rotate</label>
+                <input type="range" id="hr" class="slider" min="-" max="" value="0" oninput="editImage()">
+            </p>
+            <p>
+                <label for="sa">Sepia</label>
+                <input type="range" id="sa" class="slider" min="-" max="" value="0" oninput="editImage()">
+            </p>
+        </section>
+        <input type="button" value="Take Screenshot" onclick=hide() class="ur">
+    </section>
+</body></html>
